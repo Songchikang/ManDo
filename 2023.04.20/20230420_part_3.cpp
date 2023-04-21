@@ -4,10 +4,10 @@
 int main(void) {
 	int a, i;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf(ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%d", &a);
 
-	printf("¾à¼ö : ");
+	printf("Â¾Ã Â¼Ã¶ : ");
 
 	for (i = 1; i <= a;  i++) {
 		if (a % i == 0) {

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	printf("%x\n", 0x20<<2);
+	return 0;
+}/*3-1번 문제*/
+
+
+#include <stdio.h>
+
+int main(void) {
+	int a = 100, b = 200, c;
+	c = (a == 100 || b > 200);
+	printf("%d\n", c);
+	return 0;
+}/*3-2번 문제*/

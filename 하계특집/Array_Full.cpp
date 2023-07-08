@@ -47,7 +47,7 @@ int main(void) {
 		}
 	}
 
-	printf("½ÃµµÈ½¼ö = %d\n ", try_cnt);
+	printf("try conut = %d\n ", try_cnt);
 	print_array(image);
 	return 0;
 }

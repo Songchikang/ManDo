@@ -3,29 +3,27 @@
 #include <string.h>
 #define SIZE 3
 
-struct student
-{
+struct student {
 	int number;
 	char name[20];
 	double grade;
 };
 
-int main()
-{
+int main() {
 	struct student list[SIZE];
 	int i;
 
 	for (i = 0; i < SIZE; i++) {
-		printf("ÇĞ¹øÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("í•™ë²ˆì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 		scanf("%d", &list[i].number);
-		printf("ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ì´ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 		scanf("%s", &list[i].name);
-		printf("ÇĞÁ¡À» ÀÔ·ÂÇÏ½Ã¿À(½Ç¼ö): ");
+		printf("í•™ì ì„ ì…ë ¥í•˜ì‹œì˜¤(ì‹¤ìˆ˜): ");
 		scanf("%lf", &list[i].grade);
 	}
 
 	for (i = 0; i < SIZE; i++) {
-		printf("ÀÌ¸§: %s, ÇĞÁ¡: %f\n", list[i].name, list[i].grade);
+		printf("ì´ë¦„: %s, í•™ì : %f\n", list[i].name, list[i].grade);
 	}
 
 
